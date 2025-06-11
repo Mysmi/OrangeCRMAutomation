@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-11T15:19:21 IST" name="OrangeHRM Automation suite" finished-at="2025-06-11T15:19:52 IST" duration-ms="31086">
+    <groups>
+      <group name="first">
+        <method signature="Logintestcases.test1()[pri:1, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" name="test1" class="com.OrangeCRM.QA.TestCases.Logintestcases"/>
+        <method signature="Logintestcases.test2()[pri:2, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" name="test2" class="com.OrangeCRM.QA.TestCases.Logintestcases"/>
+      </group> <!-- first -->
+    </groups>
+    <test started-at="2025-06-11T15:19:21 IST" name="HRM Testing" finished-at="2025-06-11T15:19:52 IST" duration-ms="31086">
+      <class name="com.OrangeCRM.QA.TestCases.Logintestcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" started-at="2025-06-11T15:19:21 IST" name="setUp" finished-at="2025-06-11T15:19:40 IST" duration-ms="18830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:1, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" started-at="2025-06-11T15:19:40 IST" name="test1" finished-at="2025-06-11T15:19:40 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" started-at="2025-06-11T15:19:40 IST" name="teardown" finished-at="2025-06-11T15:19:41 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" started-at="2025-06-11T15:19:41 IST" name="setUp" finished-at="2025-06-11T15:19:48 IST" duration-ms="7162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:2, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" started-at="2025-06-11T15:19:48 IST" name="test2" finished-at="2025-06-11T15:19:52 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@12468a38]" started-at="2025-06-11T15:19:52 IST" name="teardown" finished-at="2025-06-11T15:19:52 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OrangeCRM.QA.TestCases.Logintestcases -->
+    </test> <!-- HRM Testing -->
+  </suite> <!-- OrangeHRM Automation suite -->
+</testng-results>

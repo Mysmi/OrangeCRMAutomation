@@ -1,0 +1,4 @@
+com\OrangeCRM\QA\TestCases\Admintestcases.class
+com\OrangeCRM\QA\TestCases\Logintestcases.class
+com\OrangeCRM\QA\TestCases\Addusertestcase.class
+com\OrangeCRM\QA\TestCases\Hometestcases.class
