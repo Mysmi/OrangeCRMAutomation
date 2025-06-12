@@ -1,353 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="0" skipped="2">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-10T23:49:57 IST" name="OrangeHRM Automation suite" finished-at="2025-06-10T23:51:38 IST" duration-ms="100871">
+  <suite started-at="2025-06-12T12:12:01 IST" name="OrangeHRM Automation suite" finished-at="2025-06-12T12:12:24 IST" duration-ms="22829">
     <groups>
       <group name="first">
-        <method signature="Logintestcases.test1()[pri:1, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" name="test1" class="com.OrangeCRM.QA.TestCases.Logintestcases"/>
-        <method signature="Logintestcases.test2()[pri:2, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" name="test2" class="com.OrangeCRM.QA.TestCases.Logintestcases"/>
+        <method signature="Logintestcases.test1()[pri:1, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" name="test1" class="com.OrangeCRM.QA.TestCases.Logintestcases"/>
+        <method signature="Logintestcases.test2()[pri:2, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" name="test2" class="com.OrangeCRM.QA.TestCases.Logintestcases"/>
       </group> <!-- first -->
     </groups>
-    <test started-at="2025-06-10T23:49:57 IST" name="HRM Testing" finished-at="2025-06-10T23:51:38 IST" duration-ms="100871">
-      <class name="com.OrangeCRM.QA.TestCases.Hometestcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:50:43 IST" name="setup" finished-at="2025-06-10T23:50:51 IST" duration-ms="8665" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getalldashfunctiong()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:50:51 IST" name="getalldashfunctiong" finished-at="2025-06-10T23:50:53 IST" duration-ms="1799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getalldashfunctiong -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:50:53 IST" name="teardown" finished-at="2025-06-10T23:50:53 IST" duration-ms="162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:50:53 IST" name="setup" finished-at="2025-06-10T23:51:02 IST" duration-ms="8537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getallfunction()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:02 IST" name="getallfunction" finished-at="2025-06-10T23:51:04 IST" duration-ms="2350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getallfunction -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:04 IST" name="teardown" finished-at="2025-06-10T23:51:04 IST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:04 IST" name="setup" finished-at="2025-06-10T23:51:13 IST" duration-ms="8640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="title()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:13 IST" name="title" finished-at="2025-06-10T23:51:14 IST" duration-ms="767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- title -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:14 IST" name="teardown" finished-at="2025-06-10T23:51:14 IST" duration-ms="198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:14 IST" name="setup" finished-at="2025-06-10T23:51:22 IST" duration-ms="8026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="username()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:22 IST" name="username" finished-at="2025-06-10T23:51:23 IST" duration-ms="710" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- username -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Hometestcases@3bd82cf5]" started-at="2025-06-10T23:51:23 IST" name="teardown" finished-at="2025-06-10T23:51:23 IST" duration-ms="161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.OrangeCRM.QA.TestCases.Hometestcases -->
-      <class name="com.OrangeCRM.QA.TestCases.Admintestcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeCRM.QA.TestCases.Admintestcases@217ed35e]" started-at="2025-06-10T23:49:57 IST" name="setup" finished-at="2025-06-10T23:50:43 IST" duration-ms="45070" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='qwertyuiuytr']"}
-  (Session info: chrome=137.0.7151.69)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dce5cb3e2c92d98f52dd22e023face9, findElement {using=xpath, value=//*[text()='qwertyuiuytr']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\aaa\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dce5cb3e2c92d98f52dd22e023face9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='qwertyuiuytr']"}
-  (Session info: chrome=137.0.7151.69)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dce5cb3e2c92d98f52dd22e023face9, findElement {using=xpath, value=//*[text()='qwertyuiuytr']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\aaa\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dce5cb3e2c92d98f52dd22e023face9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
-at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
-at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
-at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$8gPfBr9B.findElement(Unknown Source)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy36.isDisplayed(Unknown Source)
-at com.crm.qa.pages.Adminpage.clickadmintab(Adminpage.java:43)
-at com.OrangeCRM.QA.TestCases.Admintestcases.setup(Admintestcases.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="titletest()[pri:2, instance:com.OrangeCRM.QA.TestCases.Admintestcases@217ed35e]" started-at="2025-06-10T23:50:43 IST" name="titletest" finished-at="2025-06-10T23:50:43 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='qwertyuiuytr']"}
-  (Session info: chrome=137.0.7151.69)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dce5cb3e2c92d98f52dd22e023face9, findElement {using=xpath, value=//*[text()='qwertyuiuytr']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\aaa\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dce5cb3e2c92d98f52dd22e023face9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='qwertyuiuytr']"}
-  (Session info: chrome=137.0.7151.69)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dce5cb3e2c92d98f52dd22e023face9, findElement {using=xpath, value=//*[text()='qwertyuiuytr']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\aaa\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dce5cb3e2c92d98f52dd22e023face9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
-at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
-at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
-at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$8gPfBr9B.findElement(Unknown Source)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy36.isDisplayed(Unknown Source)
-at com.crm.qa.pages.Adminpage.clickadmintab(Adminpage.java:43)
-at com.OrangeCRM.QA.TestCases.Admintestcases.setup(Admintestcases.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titletest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Admintestcases@217ed35e]" started-at="2025-06-10T23:50:43 IST" name="teardown" finished-at="2025-06-10T23:50:43 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeCRM.QA.TestCases.Admintestcases@217ed35e]" started-at="2025-06-10T23:50:43 IST" name="setup" finished-at="2025-06-10T23:50:43 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="usersdata()[pri:3, instance:com.OrangeCRM.QA.TestCases.Admintestcases@217ed35e]" started-at="2025-06-10T23:50:43 IST" name="usersdata" finished-at="2025-06-10T23:50:43 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='qwertyuiuytr']"}
-  (Session info: chrome=137.0.7151.69)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dce5cb3e2c92d98f52dd22e023face9, findElement {using=xpath, value=//*[text()='qwertyuiuytr']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\aaa\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dce5cb3e2c92d98f52dd22e023face9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='qwertyuiuytr']"}
-  (Session info: chrome=137.0.7151.69)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dce5cb3e2c92d98f52dd22e023face9, findElement {using=xpath, value=//*[text()='qwertyuiuytr']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\aaa\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dce5cb3e2c92d98f52dd22e023face9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
-at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
-at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
-at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$8gPfBr9B.findElement(Unknown Source)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy36.isDisplayed(Unknown Source)
-at com.crm.qa.pages.Adminpage.clickadmintab(Adminpage.java:43)
-at com.OrangeCRM.QA.TestCases.Admintestcases.setup(Admintestcases.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usersdata -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Admintestcases@217ed35e]" started-at="2025-06-10T23:50:43 IST" name="teardown" finished-at="2025-06-10T23:50:43 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.OrangeCRM.QA.TestCases.Admintestcases -->
+    <test started-at="2025-06-12T12:12:01 IST" name="HRM Testing" finished-at="2025-06-12T12:12:24 IST" duration-ms="22829">
       <class name="com.OrangeCRM.QA.TestCases.Logintestcases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" started-at="2025-06-10T23:51:23 IST" name="setUp" finished-at="2025-06-10T23:51:29 IST" duration-ms="5917" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" started-at="2025-06-12T12:12:01 IST" name="setUp" finished-at="2025-06-12T12:12:13 IST" duration-ms="12627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:1, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" started-at="2025-06-10T23:51:29 IST" name="test1" finished-at="2025-06-10T23:51:29 IST" duration-ms="190" status="PASS">
+        <test-method signature="test1()[pri:1, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" started-at="2025-06-12T12:12:13 IST" name="test1" finished-at="2025-06-12T12:12:14 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" started-at="2025-06-10T23:51:29 IST" name="teardown" finished-at="2025-06-10T23:51:29 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" started-at="2025-06-12T12:12:14 IST" name="teardown" finished-at="2025-06-12T12:12:14 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" started-at="2025-06-10T23:51:29 IST" name="setUp" finished-at="2025-06-10T23:51:35 IST" duration-ms="5874" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" started-at="2025-06-12T12:12:14 IST" name="setUp" finished-at="2025-06-12T12:12:19 IST" duration-ms="5619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:2, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" started-at="2025-06-10T23:51:35 IST" name="test2" finished-at="2025-06-10T23:51:38 IST" duration-ms="3009" status="PASS">
+        <test-method signature="test2()[pri:2, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" started-at="2025-06-12T12:12:19 IST" name="test2" finished-at="2025-06-12T12:12:23 IST" duration-ms="3902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@544fa968]" started-at="2025-06-10T23:51:38 IST" name="teardown" finished-at="2025-06-10T23:51:38 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeCRM.QA.TestCases.Logintestcases@2f4948e4]" started-at="2025-06-12T12:12:23 IST" name="teardown" finished-at="2025-06-12T12:12:24 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
